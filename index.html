@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whereisnosa</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Nosa</a>
+      <!-- <div class="menu-icon">&#9776;</div> -->
+      <!-- <img src="merch/menu.png" width="30px" class="menu-icon" onclick="menutoggle()"> -->
+
+      <nav class="navbar">
+        <ul id="MenuItems">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="https://whereisnosa.github.io/room44/">Room44</a></li>
+          <li><a href="https://whereisnosa.pythonanywhere.com/">Blog</a></li>
+          <li><a href="https://t.me/Dummyisabot">Dummy</a></li>
+          <li><a href="https://whereisnosa.github.io/yamboy">YamBoy</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon" onclick="menutoggle()">&#9776;</div>
+    </header>
+
+
+    <section class="home">
+
+      <div class="row">
+
+
+        <div class="home-content col-2">
+
+          <h1>What's up</h1>
+          <h3>Developer</h3>
+          <p>Not sure what to say next, but please checkout my projects in the menu bar.</p>
+          <div class="btn-box">
+            <a href="https://mail.google.com/mail/u/0/#inbox">Hire Me</a>
+            <a href="https://www.instagram.com/whereisnosa/">Let's Talk</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="home-sci">
+
+        <a href="https://t.me/whereisnosa"><img src="img/phone.png" width="60px" height="60px"></a>
+        <a href="#"><img src="img/mail.png" width="60px" height="60px"></a>
+        <a href="https://www.instagram.com/whereisnosa/"><img src="img/ig.png" width="60px" height="60px"></a>
+
+      </div>
+
+      <span class="home-imgHover">
+          <img src="img/nosa.png" alt="">
+      </span>
+    </section>
+
+    <script type="text/javascript">
+
+      var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+            {
+              MenuItems.style.maxHeight = "200px"
+            }
+          else
+            {
+              MenuItems.style.maxHeight = "0px"
+            }
+        }
+
+
+    </script>
+
+  </body>
+</html>
