@@ -371,7 +371,7 @@ nav ul li{
     height: 150px; /* Make the image bigger */
     border-radius: 50%; /* Makes the image circular */
     overflow: hidden;
-    margin-top: 165px;
+    margin-top: 100px;
   }
 
   .home-imgHover img {
@@ -383,7 +383,7 @@ nav ul li{
 
   .home-content {
     text-align: center; /* Center text content */
-    margin-top: 100px; /* Add margin to create space for the image above */
+    margin-top: 90px; /* Add margin to create space for the image above */
   }
 
 }
